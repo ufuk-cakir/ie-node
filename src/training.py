@@ -1,5 +1,7 @@
 import torch
 from torchdiffeq import odeint
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 def training_loop(model, optimizer, data, epochs, loss_fn):
 
